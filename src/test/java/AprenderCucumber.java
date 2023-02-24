@@ -3,11 +3,12 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
+import org.junit.ComparisonFailure;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Optional;
+
 
 public class AprenderCucumber {
 
@@ -67,19 +68,25 @@ public class AprenderCucumber {
         entrega = cal.getTime();
     }
 
-    @When("a entrega atrasar em (\\d+) dias$")
-    public void aEntregaAtrasarEmDias(int int1) {
+    @When("^a entrega atrasar em (\\d+) (dia|dias|mes|meses)$")
+    public void aEntregaAtrasarEmDias(int int1, String tempo) {
         Calendar cal = Calendar.getInstance();
         cal.setTime(entrega);
-        cal.add(Calendar.DAY_OF_MONTH, int1);
+        if(tempo.equals("dias")) {
+            cal.add(Calendar.DAY_OF_MONTH, int1);
+        }
+        if(tempo.equals("meses")) {
+            cal.add(Calendar.MONTH, int1);
+        }
         entrega = cal.getTime();
     }
-
     @Then("a entrega será efetuada em (\\d{2}\\/\\d{2}\\/\\d{4})$")
     public void aEntregaSeráEfetuadaEm(String data) {
         DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         String dataFormatada = format.format(entrega);
         Assert.assertEquals(data, dataFormatada);
-
+    }
+    @Given("que o prazo é dia {int}\\/{int}\\/{int}")
+    public void queOPrazoÉDia(Integer int1, Integer int2, Integer int3) {
     }
 }
