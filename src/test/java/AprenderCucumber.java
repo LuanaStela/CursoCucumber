@@ -84,9 +84,49 @@ public class AprenderCucumber {
     public void aEntregaSeráEfetuadaEm(String data) {
         DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         String dataFormatada = format.format(entrega);
-        Assert.assertEquals(data, dataFormatada);
+        Assert.assertEquals("Correto: ", data, dataFormatada);
+
     }
+
     @Given("que o prazo é dia {int}\\/{int}\\/{int}")
     public void queOPrazoÉDia(Integer int1, Integer int2, Integer int3) {
     }
+
+    @Given("^que o ticket( especial)? é A.(\\d{3})$")
+    public void queOTicketÉAF345(String tipo, String arg1) {
+    }
+    @Given("^que o valor da passagem é R\\$ (\\d+), (\\d+)$")
+    public void queOValorDaPassagemÉR$(int arg1, int arg2) {
+    }
+    @Given("^que o nome do passageiro é \"(.{5,20})\"$")
+    public void queONomeDoPassageiroÉ(String arg1) {
+    }
+    @Given("^que o telefone do passageiro é (9\\d{3}-\\d{4})$")
+    public void queOTelefoneDoPassageiroÉ(String telefone) {
+    }
+    @When("^criar os steps$")
+    public void criarOsSteps() {
+    }
+    @Then("^o teste vai funcionar$")
+    public void oTesteVaiFuncionar() {
+    }
+    @Given("que o valor da passagem é R$ {double}")
+    public void queOValorDaPassagemÉR$(Double double1) {
+    }
+    @Given("que o ticket é CD123")
+    public void queOTicketÉCD123() {
+    }
+    @Given("que o ticket é AG1234")
+    public void queOTicketÉAG1234() {
+    }
+    @Given("que o valor da passagem é R$ {double},{int}")
+    public void queOValorDaPassagemÉR$(Double double1, Integer int1) {
+    }
+
+    @Given("que o telefone do passageiro é {int}-{int}")
+    public void queOTelefoneDoPassageiroÉ(Integer int1, Integer int2) {
+
+    }
+
+
 }
