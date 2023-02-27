@@ -62,11 +62,16 @@ public class AprenderCucumber {
         cal.set(Calendar.YEAR, ano);
         entrega = cal.getTime();
     }
-    @When("^a entrega atrasar em (\\d+) dias$")
-    public void aEntregaAtrasarEmDias(Integer int1) {
+    @When("^a entrega atrasar em (\\d+) (.+)$")
+    public void aEntregaAtrasarEmDias(Integer int1, String tempo) {
         Calendar cal = Calendar.getInstance();
         cal.setTime(entrega);
-        cal.add(Calendar.DAY_OF_MONTH, int1);
+        if (tempo.equals("dias")) {
+            cal.add(Calendar.DAY_OF_MONTH, int1);
+        }
+        if(tempo.equals("meses")) {
+            cal.add(Calendar.MONTH, int1);
+        }
         entrega = cal.getTime();
     }
     @Then("^a entrega será efetuada em (\\d{2}\\/\\d{2}\\/\\d{4})$")

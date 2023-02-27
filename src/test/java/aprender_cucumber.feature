@@ -23,10 +23,10 @@ Scenario: Deve calcular o atraso na entrega
   When a entrega atrasar em 2 dias
   Then a entrega será efetuada em 07/04/2018
 
-#Scenario: Deve calcular o atraso no prazo de entrega da China
-#  Given que o prazo é dia 05/04/2018
-#  When a entrega atrasar em 2 meses
-#  Then a entrega será efetuada em 05/06/2018
+Scenario: Deve calcular atraso na entrega da China
+  Given que a entrega é dia 05/04/2018
+  When a entrega atrasar em 2 meses
+  Then a entrega será efetuada em 05/06/2018
 
 #Scenario: Deve criar steps genéricos para estes passos
 #  Given que o ticket é AF345
