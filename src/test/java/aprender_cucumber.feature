@@ -18,10 +18,10 @@ Scenario: Deve incrementar contador
   When eu incrementar em 35
   Then o valor do contador será 158
 
-#Scenario: Deve calcular o atraso na entrega
-#  Given que a entrega é dia 05/04/2018
-#  When a entrega atrasar em 2 dias
-#  Then a entrega será efetuada em 07/04/2018
+Scenario: Deve calcular o atraso na entrega
+  Given que a entrega é dia 05/04/2018
+  When a entrega atrasar em 2 dias
+  Then a entrega será efetuada em 07/04/2018
 
 #Scenario: Deve calcular o atraso no prazo de entrega da China
 #  Given que o prazo é dia 05/04/2018

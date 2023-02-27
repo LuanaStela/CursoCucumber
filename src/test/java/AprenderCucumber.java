@@ -3,6 +3,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+
 public class AprenderCucumber {
 
     @Given("que criei o arquivo corretamente")
@@ -45,5 +50,29 @@ public class AprenderCucumber {
     @Then("o valor do contador será 158")
     public void o_valor_do_contador_será() {
         Assert.assertEquals(158, contador);
+    }
+
+    Date entrega = new Date();
+
+    @Given("^que a entrega é dia (\\d+)/(\\d+)/(\\d+)$")
+    public void queAEntregaÉDia(Integer dia, Integer mes, Integer ano) {
+        Calendar cal = Calendar.getInstance();
+        cal.set(Calendar.DAY_OF_MONTH, dia);
+        cal.set(Calendar.MONTH, mes - 1);
+        cal.set(Calendar.YEAR, ano);
+        entrega = cal.getTime();
+    }
+    @When("^a entrega atrasar em (\\d+) dias$")
+    public void aEntregaAtrasarEmDias(Integer int1) {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(entrega);
+        cal.add(Calendar.DAY_OF_MONTH, int1);
+        entrega = cal.getTime();
+    }
+    @Then("^a entrega será efetuada em (\\d{2}\\/\\d{2}\\/\\d{4})$")
+    public void aEntregaSeráEfetuadaEm(String data) {
+        DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+        String dataFormatada = format.format(entrega);
+        Assert.assertEquals(data, dataFormatada);
     }
 }
