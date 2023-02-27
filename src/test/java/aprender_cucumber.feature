@@ -28,13 +28,13 @@ Scenario: Deve calcular atraso na entrega da China
   When a entrega atrasar em 2 meses
   Then a entrega será efetuada em 05/06/2018
 
-#Scenario: Deve criar steps genéricos para estes passos
-#  Given que o ticket é AF345
-#  Given que o valor da passagem é R$ 230,45
-#  Given que o nome do passageiro é "Fulano da Silva"
-#  Given que o telefone do passageiro é 9999-9999
-#  When criar os steps
-#  Then o teste vai funcionar
+Scenario: Deve criar steps genéricos para estes passos
+  Given que o ticket é AF345
+  Given que o valor da passagem é R$ 230,45
+  Given que o nome do passageiro é "Fulano da Silva"
+  Given que o telefone do passageiro é 9999-9999
+  When criar os steps
+  Then o teste vai funcionar
 
 #Scenario: Deve reaproveitar os steps "Given" do cenário anterior
 #  Given que o ticket é AB167
@@ -42,7 +42,7 @@ Scenario: Deve calcular atraso na entrega da China
 #  Given que o valor da passagem é R$ 1120,23
 #  Given que o nome do passageiro é "Cicrano de Oliveira"
 #  Given que o telefone do passageiro é 9888-8888
-
+#
 #Scenario: Deve negar todos os steps "Given" dos cenários anteriores
 #  Given que o ticket é CD123
 #  Given que o ticket é AG1234

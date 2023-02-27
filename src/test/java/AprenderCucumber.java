@@ -62,7 +62,7 @@ public class AprenderCucumber {
         cal.set(Calendar.YEAR, ano);
         entrega = cal.getTime();
     }
-    @When("^a entrega atrasar em (\\d+) (.+)$")
+    @When("^a entrega atrasar em (\\d+) (dia|dias|mes|meses)$")
     public void aEntregaAtrasarEmDias(Integer int1, String tempo) {
         Calendar cal = Calendar.getInstance();
         cal.setTime(entrega);
@@ -79,5 +79,33 @@ public class AprenderCucumber {
         DateFormat format = new SimpleDateFormat("dd/MM/yyyy");
         String dataFormatada = format.format(entrega);
         Assert.assertEquals(data, dataFormatada);
+    }
+    @Given("^que o ticket é AF345")
+    public void queOTicketÉAF345() {
+    }
+    @Given("que o valor da passagem é R$ {double}")
+    public void queOValorDaPassagemÉR$(Double double1) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @Given("que o nome do passageiro é {string}")
+    public void queONomeDoPassageiroÉ(String string) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @Given("que o telefone do passageiro é {int}-{int}")
+    public void queOTelefoneDoPassageiroÉ(Integer int1, Integer int2) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @When("criar os steps")
+    public void criarOsSteps() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @Then("o teste vai funcionar")
+    public void oTesteVaiFuncionar() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
     }
 }
