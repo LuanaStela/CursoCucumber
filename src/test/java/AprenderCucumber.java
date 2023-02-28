@@ -92,11 +92,11 @@ public class AprenderCucumber {
     @Given("^que o telefone do passageiro é (9\\d{3}-\\d{4})$")
     public void queOTelefoneDoPassageiroÉ(String telefone) {
     }
-    @When("^criar os steps$")
+    @Given("^criar os steps$")
     public void criarOsSteps() {
 
     }
-    @Then("^o teste vai funcionar$")
+    @Given("^o teste vai funcionar$")
     public void oTesteVaiFuncionar() {
     }
 }

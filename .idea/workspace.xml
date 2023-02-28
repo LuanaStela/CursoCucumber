@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Correção dos exercícios.">
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Atualização do desafio Regex">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AprenderCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AprenderCucumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" afterDir="false" />
@@ -43,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: aprender_cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677538196480</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Atualização do desafio Regex">
+      <created>1677602384414</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677602384414</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +272,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atualização." />
     <MESSAGE value="Correção dos exercícios." />
-    <option name="LAST_COMMIT_MESSAGE" value="Correção dos exercícios." />
+    <MESSAGE value="Atualização do desafio Regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização do desafio Regex" />
   </component>
 </project>
