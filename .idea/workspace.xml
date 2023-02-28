@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Melhorando a fluidez dos cenários.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entidades/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AprenderCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AprenderCucumberSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/aprender_cucumber.feature" afterDir="false" />
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Exercício sobre locadora.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677605924713</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Exercício sobre locadora.">
+      <created>1677619208470</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677619208470</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +292,7 @@
     <MESSAGE value="Correção dos exercícios." />
     <MESSAGE value="Atualização do desafio Regex" />
     <MESSAGE value="Melhorando a fluidez dos cenários." />
-    <option name="LAST_COMMIT_MESSAGE" value="Melhorando a fluidez dos cenários." />
+    <MESSAGE value="Exercício sobre locadora." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício sobre locadora." />
   </component>
 </project>
