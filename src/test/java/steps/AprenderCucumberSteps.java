@@ -1,3 +1,5 @@
+package steps;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-public class AprenderCucumber {
+public class AprenderCucumberSteps {
 
     @Given("que criei o arquivo corretamente")
     public void que_criei_um_arquivo_corretamente() {

@@ -13,16 +13,19 @@ Scenario: Deve incrementar contador
   When eu incrementar em 3
   Then o valor do contador será 18
 
+@tipo1
 Scenario: Deve incrementar contador
   Given que o valor do contador é 123
   When eu incrementar em 35
   Then o valor do contador será 158
 
+@tipo2
 Scenario: Deve calcular o atraso na entrega
   Given que a entrega é dia 05/04/2018
   When a entrega atrasar em 2 dias
   Then a entrega será efetuada em 07/04/2018
 
+@tipo1 @tipo2
 Scenario: Deve calcular atraso na entrega da China
   Given que a entrega é dia 05/04/2018
   When a entrega atrasar em 2 meses
@@ -43,6 +46,7 @@ Scenario: Deve reaproveitar os steps "Given" do cenário anterior
   Given que o nome do passageiro é "Cicrano de Oliveira"
   Given que o telefone do passageiro é 9888-8888
 
+@ignore
 Scenario: Deve negar todos os steps "Given" dos cenários anteriores
   Given que o ticket é CD123
   Given que o ticket é AG1234

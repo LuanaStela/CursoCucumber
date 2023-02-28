@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Atualização do desafio Regex">
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Melhorando a fluidez dos cenários.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entidades/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AprenderCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AprenderCucumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AprenderCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AprenderCucumberSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/aprender_cucumber.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Curso Cucumber\CursoCucumber\src\test\resources\features" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: aprender_cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -159,8 +168,8 @@
     </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="CursoCucumber" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677602384414</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Melhorando a fluidez dos cenários.">
+      <created>1677605924713</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677605924713</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +289,7 @@
     <MESSAGE value="Atualização." />
     <MESSAGE value="Correção dos exercícios." />
     <MESSAGE value="Atualização do desafio Regex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização do desafio Regex" />
+    <MESSAGE value="Melhorando a fluidez dos cenários." />
+    <option name="LAST_COMMIT_MESSAGE" value="Melhorando a fluidez dos cenários." />
   </component>
 </project>
