@@ -43,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores">
     <configuration name="Feature: aprender_cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
@@ -138,6 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CursoCucumber" />
+      <option name="NAME_FILTER" value="^Deve negar todos os steps \&quot;Given\&quot; dos cenários anteriores$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deve negar todos os steps \&quot;Given\&quot; dos cenários anteriores$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="CursoCucumber" />
       <option name="PACKAGE_NAME" value="" />
@@ -149,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores" />
         <item itemvalue="Cucumber Java.Scenario: Deve calcular o atraso na entrega" />
         <item itemvalue="Cucumber Java.Scenario: Deve calcular o atraso no prazo de entrega da China" />
         <item itemvalue="Cucumber Java.Feature: aprender_cucumber" />
@@ -221,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677537226596</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Correção dos exercícios.">
+      <created>1677538196480</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677538196480</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
