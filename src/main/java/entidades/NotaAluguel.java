@@ -9,9 +9,11 @@ public class NotaAluguel {
     public int getPreco() {
         return preco;
     }
+
     public void setPreco(int preco) {
         this.preco = preco;
     }
+
     public Date getDataEntrega() {
         return dataEntrega;
     }

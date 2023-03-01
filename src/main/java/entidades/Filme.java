@@ -6,7 +6,7 @@ public class Filme {
     public void setEstoque(Integer int1) {
         this.estoque = int1;
     }
-    public void setAlguel(Integer int1) {
+    public void setAluguel(Integer int1) {
         this.aluguel = int1;
     }
     public int getAluguel() {
