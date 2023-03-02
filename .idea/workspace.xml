@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Atualização sobre o exercício.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entidades/TipoAluguel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/NotaAluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/NotaAluguel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servicos/AluguelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicos/AluguelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" afterDir="false" />
@@ -297,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677699335034</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Atualização sobre o exercício.">
+      <created>1677706475297</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677706475297</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,5 +327,15 @@
     <MESSAGE value="Exercício sobre locadora." />
     <MESSAGE value="Atualização sobre o exercício." />
     <option name="LAST_COMMIT_MESSAGE" value="Atualização sobre o exercício." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

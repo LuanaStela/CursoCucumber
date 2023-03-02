@@ -2,19 +2,21 @@ package steps;
 
 import entidades.Filme;
 import entidades.NotaAluguel;
+import entidades.TipoAluguel;
+import utils.DateUtils;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Map;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import servicos.AluguelService;
-import utils.DateUtils;
-
-import java.util.Calendar;
+import io.cucumber.datatable.DataTable;
 
 
 public class AlugarFilmeSteps {
@@ -23,19 +25,35 @@ public class AlugarFilmeSteps {
     private AluguelService aluguel = new AluguelService();
     private NotaAluguel nota;
     private String erro;
-    private String tipoAluguel;
+    private TipoAluguel tipoAluguel;
 
     @Given("^um filme com estoque de (\\d+) unidades$")
-    public void umFilmeComEstoqueDeUnidades(Integer int1) {
+    public void umFilmeComEstoqueDeUnidades(int int1) {
         filme = new Filme();
         filme.setEstoque(int1);
     }
 
     @Given("^que o preço do aluguel seja R\\$ (\\d+)$")
-    public void queOPreçoDoAluguelSejaR$(Integer int1) {
+    public void queOPrecoDoAluguelSejaR$(int int1) {
         filme.setAluguel(int1);
     }
 
+    @Given("um filme")
+    public void umFilme(DataTable table) {
+        Map<String, String> map = table.asMap(String.class, String.class);
+        filme = new Filme();
+        filme.setEstoque(Integer.parseInt(map.get("estoque")));
+        filme.setAluguel(Integer.parseInt(map.get("preco")));
+        String tipo = map.get("tipo");
+        tipoAluguel = tipo.equals("semanal")? TipoAluguel.SEMANAL: tipo.equals("extendido")? TipoAluguel.EXTENDIDO: TipoAluguel.COMUM;
+
+    }
+/*    @Then("o estoque do filme será {int} unidade")
+    public void oEstoqueDoFilmeSeráUnidade(Integer int1) {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+*/
     @When("^alugar$")
     public void alugar() {
         try {
@@ -47,12 +65,12 @@ public class AlugarFilmeSteps {
 
     @Then("^o preço do aluguel será R\\$ (\\d+)$")
     public void oPreçoDoAluguelSeráR$(int int1) {
-       Assert.assertEquals(int1, nota.getPreco());
+        Assertions.assertEquals(int1, nota.getPreco());
     }
 
     @Then("^o estoque do filme será (\\d+) unidades$")
-    public void oEstoqueDoFilmeSeráUnidades(int int1) {
-        Assert.assertEquals(int1, filme.getEstoque());
+    public void oEstoqueDoFilmeSeráUnidades(Integer int1) {
+        Assertions.assertEquals(int1, filme.getEstoque());
     }
 
     @Then("^não será possível por falta de estoque$")
@@ -62,7 +80,7 @@ public class AlugarFilmeSteps {
 
     @Given("^que o tipo do aluguel seja (.*)$")
     public void queOTipoDoAluguelSejaExtendido(String tipo) {
-        tipoAluguel = tipo;
+        tipoAluguel = tipo.equals("semanal")? TipoAluguel.SEMANAL: tipo.equals("extendido")? TipoAluguel.EXTENDIDO: TipoAluguel.COMUM;
     }
     @Then("^a data de entrega será em (\\d+) dias?$")
     public void aDataDeEntregaSeráEmDias(int int1) {
