@@ -48,12 +48,7 @@ public class AlugarFilmeSteps {
         tipoAluguel = tipo.equals("semanal")? TipoAluguel.SEMANAL: tipo.equals("extendido")? TipoAluguel.EXTENDIDO: TipoAluguel.COMUM;
 
     }
-/*    @Then("o estoque do filme será {int} unidade")
-    public void oEstoqueDoFilmeSeráUnidade(Integer int1) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-*/
+
     @When("^alugar$")
     public void alugar() {
         try {
@@ -64,13 +59,13 @@ public class AlugarFilmeSteps {
     }
 
     @Then("^o preço do aluguel será R\\$ (\\d+)$")
-    public void oPreçoDoAluguelSeráR$(int int1) {
+    public void oPreçoDoAluguelSeráR$(Integer int1) {
         Assertions.assertEquals(int1, nota.getPreco());
     }
 
     @Then("^o estoque do filme será (\\d+) unidades$")
-    public void oEstoqueDoFilmeSeráUnidades(Integer int1) {
-        Assertions.assertEquals(int1, filme.getEstoque());
+    public void oEstoqueDoFilmeSeráUnidades(int int1) {
+        Assert.assertEquals(int1, filme.getEstoque());
     }
 
     @Then("^não será possível por falta de estoque$")

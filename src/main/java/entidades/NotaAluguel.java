@@ -1,6 +1,7 @@
 package entidades;
 
-import io.cucumber.java.it.Date;
+
+import java.util.Date;
 
 public class NotaAluguel {
     private int preco;

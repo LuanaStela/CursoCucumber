@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Atualização sobre o exercício.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entidades/TipoAluguel.java" afterDir="false" />
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Exercícios sobre aluguel utilizando tabelas.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/NotaAluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/NotaAluguel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servicos/AluguelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicos/AluguelService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" afterDir="false" />
@@ -305,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677706475297</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Exercícios sobre aluguel utilizando tabelas.">
+      <created>1677792281131</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677792281131</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,7 +332,8 @@
     <MESSAGE value="Melhorando a fluidez dos cenários." />
     <MESSAGE value="Exercício sobre locadora." />
     <MESSAGE value="Atualização sobre o exercício." />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização sobre o exercício." />
+    <MESSAGE value="Exercícios sobre aluguel utilizando tabelas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercícios sobre aluguel utilizando tabelas." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
