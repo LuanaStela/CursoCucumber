@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Exercícios sobre aluguel utilizando tabelas.">
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Exercício corrigido e funcionando.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entidades/NotaAluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entidades/NotaAluguel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicos/AluguelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicos/AluguelService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AlugarFilmeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
       <recent name="C:\Curso Cucumber\CursoCucumber\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="JUnit.RunnerTest">
     <configuration name="Feature: aprender_cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
@@ -164,10 +161,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <configuration name="RunnerTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="CursoCucumber" />
       <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
+      <option name="MAIN_CLASS_NAME" value="runners.RunnerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677792281131</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Exercício corrigido e funcionando.">
+      <created>1677793820288</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677793820288</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +337,8 @@
     <MESSAGE value="Exercício sobre locadora." />
     <MESSAGE value="Atualização sobre o exercício." />
     <MESSAGE value="Exercícios sobre aluguel utilizando tabelas." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercícios sobre aluguel utilizando tabelas." />
+    <MESSAGE value="Exercício corrigido e funcionando." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício corrigido e funcionando." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
