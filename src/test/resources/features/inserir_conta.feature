@@ -13,16 +13,14 @@ Background:
   When seleciono Contas
   And seleciono Adicionar
 
-Scenario: Deve inserir uma conta com sucesso
-  And informo a conta "Conta de Teste"
+# Esquema do cenário
+Scenario Outline: Deve validar regras cadastro contas
+  Given informo a conta "<conta>"
   And seleciono Salvar
-  Then a conta é inserida com sucesso
+  Then recebo a mensagem "<mensagem>"
 
-Scenario: Não deve inserir uma conta sem nome
-  And seleciono Salvar
-  Then sou notificado que o nome da conta é obrigatório
-
-Scenario: Não deve inserir uma conta com nome já existente
-  And informo a conta "Conta mesmo nome"
-  And seleciono Salvar
-  Then sou notificado que já existe uma conta com esse nome
+  Examples:
+  | Conta            | mensagem                           |
+  | Conta de teste   | Conta adicionada com sucesso!      |
+  |                  | Informe o nome da conta            |
+  | Conta mesmo nome | Já existe uma conta com esse nome! |

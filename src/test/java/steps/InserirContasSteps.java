@@ -66,6 +66,11 @@ public class InserirContasSteps {
         String texto = driver.findElement(By.xpath("//div[@class='alert alert-danger']")).getText();
         Assert.assertEquals("Já existe uma conta com esse nome!", texto);
     }
+    @Then("recebo a mensagem {string}")
+    public void receboAMensagem(String string) {
+        String texto = driver.findElement(By.xpath("//div[starts-with(@class, 'alert alert-']")).getText();
+        Assert.assertEquals(string, texto);
+    }
 
     @Before
     public void inicio() {
