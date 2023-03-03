@@ -6,11 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        plugin = {"pretty", "json:target/report.json"},
-        monochrome = false,
+        plugin = "pretty",
+        monochrome = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        features = "src/test/resources/features/alugar_filme.feature",
-        glue = "steps"
+        features = "src/test/resources/features/inserir_conta.feature",
+        glue = "steps",
+        dryRun = false
 )
 public class RunnerTest {
 }

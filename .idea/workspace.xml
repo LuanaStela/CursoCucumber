@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Exercício concluído com sucesso.">
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Teste com ChromeDriver">
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/InserirContasSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TesteAmbiente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TesteAmbiente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
       <recent name="C:\Curso Cucumber\CursoCucumber\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RunnerTest">
     <configuration name="Feature: aprender_cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
@@ -104,14 +107,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deve executar especificação" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deve incrementar contador" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CursoCucumber" />
-      <option name="NAME_FILTER" value="^Deve executar especificação$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deve executar especificação$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deve executar especificação" />
+      <option name="NAME_FILTER" value="^Deve incrementar contador$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deve incrementar contador$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deve incrementar contador" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -123,14 +126,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deve incrementar contador" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+    <configuration name="Scenario: Deve inserir uma conta com sucesso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CursoCucumber" />
-      <option name="NAME_FILTER" value="^Deve incrementar contador$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deve incrementar contador$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deve incrementar contador" />
+      <option name="NAME_FILTER" value="^Deve inserir uma conta com sucesso$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Deve inserir uma conta com sucesso$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Deve inserir uma conta com sucesso" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Deve inserir uma conta com sucesso" />
         <item itemvalue="Cucumber Java.Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores" />
         <item itemvalue="Cucumber Java.Scenario: Deve calcular o atraso na entrega" />
         <item itemvalue="Cucumber Java.Scenario: Deve calcular o atraso no prazo de entrega da China" />
         <item itemvalue="Cucumber Java.Feature: aprender_cucumber" />
-        <item itemvalue="Cucumber Java.Scenario: Deve executar especificação" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +325,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677796092751</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Teste com ChromeDriver">
+      <created>1677865121048</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677865121048</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Teste com ChromeDriver">
+      <created>1677865142420</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677865142420</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +363,8 @@
     <MESSAGE value="Exercícios sobre aluguel utilizando tabelas." />
     <MESSAGE value="Exercício corrigido e funcionando." />
     <MESSAGE value="Exercício concluído com sucesso." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercício concluído com sucesso." />
+    <MESSAGE value="Teste com ChromeDriver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste com ChromeDriver" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
