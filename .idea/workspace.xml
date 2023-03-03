@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Exercício corrigido e funcionando.">
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Exercício concluído com sucesso.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <recent name="C:\Curso Cucumber\CursoCucumber\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerTest">
+  <component name="RunManager">
     <configuration name="Feature: aprender_cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
@@ -315,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677793820288</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Exercício concluído com sucesso.">
+      <created>1677796092751</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677796092751</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +345,8 @@
     <MESSAGE value="Atualização sobre o exercício." />
     <MESSAGE value="Exercícios sobre aluguel utilizando tabelas." />
     <MESSAGE value="Exercício corrigido e funcionando." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercício corrigido e funcionando." />
+    <MESSAGE value="Exercício concluído com sucesso." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercício concluído com sucesso." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
