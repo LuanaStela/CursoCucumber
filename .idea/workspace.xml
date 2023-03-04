@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Generalizando testes">
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Tirando screenshots">
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerFuncionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/InserirContasSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/InserirContasSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/aprender_cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/aprender_cucumber.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,9 +51,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Curso Cucumber\CursoCucumber\src\test\resources\features" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunnerTest">
-    <configuration name="Scenario: Deve calcular o atraso na entrega" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Scenario: Deve calcular o atraso na entrega" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
@@ -70,7 +75,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deve calcular o atraso no prazo de entrega da China" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deve calcular o atraso no prazo de entrega da China" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
@@ -108,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deve inserir uma conta com sucesso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deve inserir uma conta com sucesso" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
@@ -127,7 +132,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/aprender_cucumber.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
@@ -146,7 +151,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Deve validar regras cadastro contas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Deve validar regras cadastro contas" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" />
       <option name="GLUE" value="steps" />
@@ -175,15 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cucumber Java.Scenario: Deve validar regras cadastro contas" />
-        <item itemvalue="Cucumber Java.Scenario: Deve inserir uma conta com sucesso" />
-        <item itemvalue="Cucumber Java.Scenario: Deve negar todos os steps &quot;Given&quot; dos cenários anteriores" />
-        <item itemvalue="Cucumber Java.Scenario: Deve calcular o atraso na entrega" />
-        <item itemvalue="Cucumber Java.Scenario: Deve calcular o atraso no prazo de entrega da China" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -362,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677885683872</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Tirando screenshots">
+      <created>1677894620501</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677894620501</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -391,7 +394,8 @@
     <MESSAGE value="Utilizando contextos" />
     <MESSAGE value="Generalizando testes." />
     <MESSAGE value="Generalizando testes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generalizando testes" />
+    <MESSAGE value="Tirando screenshots" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tirando screenshots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

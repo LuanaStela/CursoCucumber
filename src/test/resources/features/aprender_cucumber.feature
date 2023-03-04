@@ -1,3 +1,4 @@
+@unitários
 Feature: Aprender Cucumber
   Como um aluno
   Eu quero aprender a utilizar Cucumber
