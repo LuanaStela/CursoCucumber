@@ -2,13 +2,20 @@ package steps;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.io.File;
+import java.io.IOException;
 
 public class InserirContasSteps {
 
@@ -68,16 +75,22 @@ public class InserirContasSteps {
     }
     @Then("recebo a mensagem {string}")
     public void receboAMensagem(String string) {
-        String texto = driver.findElement(By.xpath("//div[starts-with(@class, 'alert alert-']")).getText();
+        String texto = driver.findElement(By.xpath("//div[starts-with(@class, 'alert alert-')]")).getText();
         Assert.assertEquals(string, texto);
     }
 
+//Hooks//
     @Before
     public void inicio() {
         System.out.println("Começando aqui");
     }
 
-    @After
+    @After (order = 1)
+    public void screenshot(Scenario cenario) throws IOException {
+        File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(file, new File ("target/screenshots/"+cenario.getId()+".jpg"));
+    }
+    @After (order = 0)
     public void fecharBrowser() {
         driver.quit();
         System.out.println("Terminando");

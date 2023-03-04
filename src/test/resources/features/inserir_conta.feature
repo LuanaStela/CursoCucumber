@@ -14,13 +14,14 @@ Background:
   And seleciono Adicionar
 
 # Esquema do cenário
-Scenario Outline: Deve validar regras cadastro contas
-  Given informo a conta "<conta>"
-  And seleciono Salvar
-  Then recebo a mensagem "<mensagem>"
+  Scenario Outline: Deve analisar regras cadastro contas
+    When informo a conta "<conta>"
+    And seleciono Salvar
+    Then recebo a mensagem "<mensagem>"
 
-  Examples:
-  | Conta            | mensagem                           |
-  | Conta de teste   | Conta adicionada com sucesso!      |
-  |                  | Informe o nome da conta            |
-  | Conta mesmo nome | Já existe uma conta com esse nome! |
+    Examples:
+      |conta            | mensagem                           |
+      |Conta de Teste   | Conta adicionada com sucesso!      |
+      |                 | Informe o nome da conta            |
+      |Conta mesmo nome | Já existe uma conta com esse nome! |
+
