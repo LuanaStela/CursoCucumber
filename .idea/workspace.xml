@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Tirando screenshots">
+    <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Organizando runners">
       <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerFuncionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
@@ -365,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677894620501</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Organizando runners">
+      <created>1677895807547</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677895807547</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,7 +402,8 @@
     <MESSAGE value="Generalizando testes." />
     <MESSAGE value="Generalizando testes" />
     <MESSAGE value="Tirando screenshots" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tirando screenshots" />
+    <MESSAGE value="Organizando runners" />
+    <option name="LAST_COMMIT_MESSAGE" value="Organizando runners" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
