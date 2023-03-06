@@ -6,18 +6,11 @@ Feature: Cadastro de contas
 
 #Contexto
 Background:
-  Given que estou acessando a aplicação
-  When informo o usuário "ariane@narin"
-  And a senha "13"
-  And seleciono entrar
-  Then visualizo a página inicial
-  When seleciono Contas
-  And seleciono Adicionar
+  Given que desejo adicionar uma conta
 
 # Esquema do cenário
   Scenario Outline: Deve analisar regras cadastro contas
-    When informo a conta "<conta>"
-    And seleciono Salvar
+    When adiciono a conta "<conta>"
     Then recebo a mensagem "<mensagem>"
 
     Examples:

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07554e1d-ac00-473a-b9f9-209e9204bed9" name="Changes" comment="Organizando runners">
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerFuncionalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RunnerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/InserirContasSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/InserirContasSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/alugar_filme.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/aprender_cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/aprender_cucumber.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/inserir_conta.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -372,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677895807547</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Organizando runners">
+      <created>1677895848739</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677895848739</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
